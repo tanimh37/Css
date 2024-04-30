@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML manu</title>
+    <style>
+        .first ul {
+            list-style-type: square;
+            margin: 0;
+            padding: 0;
+        }
+
+        .first ul li a {
+            text-decoration: none;
+            width: 70px;
+            background-color: rgb(221, 220, 223);
+            display: block;
+            padding: 8px 16px;
+        }
+
+        .first ul li a:hover {
+            background-color: rgb(52, 206, 152);
+            color: rgb(254, 20, 243);
+        }
+
+        .first ul li a.active {
+            background-color: rgb(238, 191, 121);
+            color: rgb(252, 0, 118);
+        }
+
+
+        .second ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .second ul li a {
+            text-decoration: none;
+            width: 80px;
+            background-color: rgb(55, 230, 236);
+
+            padding: 8px 16px;
+        }
+
+        .second ul li a:hover {
+            background-color: rgb(178, 188, 166);
+        }
+
+        .second ul li a.active {
+            background-color: rgb(132, 189, 119);
+            color: rgb(226, 42, 128);
+        }
+
+        .second ul li {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Vartical Manu</h3>
+    <div class="first">
+
+        <ul>
+
+            <li> <a href="" class="active">Home</a></li>
+            <li> <a href="">About</a> </li>
+            <li> <a href="">Activitis</a></li>
+            <li><a href="">Contact</a></li>
+
+
+
+        </ul>
+    </div>
+    <hr>
+
+    <h3>Horizontal Manu</h3>
+    <div class="second">
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
