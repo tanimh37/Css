@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+#wrapper{
+    width: 1050px; 
+    margin: 0 auto;
+    height: 820px;
+    border: 2px solid rgb(2, 253, 207);
+}
+.banner{
+    height: 80px;
+    background-color: rgb(14, 214, 225);
+    padding: 30px;
+}
+.banner h1 {
+    text-align: center;
+    color: rgb(250, 0, 163);
+}
+.brand{
+    background-image: url(../image/Sher2.png);
+    width: 150px;
+    height: 70px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.search{
+    position:absolute;
+    right: 425px;
+}
+.navbar{
+    background-color: #6b8e23;
+    height: 18px;
+    padding: 10px;
+}
+ ul{
+    list-style-type: none;
+}
+ .navbar ul li {
+    display: inline;
+
+}
+ ul li a {
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+}
+ul li a:hover {
+    background-color: rgb(109, 37, 34);
+}
+.leftbar{
+    width: 20%;
+    float: left;
+    border-right: 1px solid gray;
+    height: 500px;
+    padding: 40px;
+    line-height: 50px;
+    background-color: rgb(111, 195, 167);
+}
+.contant {float: right;
+width: 70%;}
+
+.footer {
+    clear: both;
+    padding: 22px;
+    text-align: center;
+    background-color:#6b8e23 ;
+}
